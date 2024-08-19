@@ -19,6 +19,12 @@ h1 {
   font-size: 96px;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
 h2 {
   font-size: 48px;
 }
@@ -73,6 +79,12 @@ p {
   height: auto;
 }
 
+@media (max-width: 576px) {
+  .d-sm-block {
+    display: block;
+  }
+}
+
 .launch-link {
   border-radius: 4px;
   color: white;
@@ -80,6 +92,15 @@ p {
   box-shadow: var(--box-shadow);
   text-decoration: none;
   padding: 15px 15px;
+}
+
+@media (max-width: 576px) {
+  .launch-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 40px;
+  }
 }
 
 .about-paragraphs {
